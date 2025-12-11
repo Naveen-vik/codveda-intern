@@ -36,7 +36,7 @@ try:
                 case _:
                     print("Invalid choice, please try again")
         except ZeroDivisionError:
-            print("❌ Error: Division by zero is not allowed!")
+            print(" Error: Division by zero is not allowed!")
 
         dc = input("Do you want some more calculation (yes/no): ")
         if dc.lower() == "no":
@@ -44,4 +44,4 @@ try:
             break  
 
 except ValueError:
-    print("❌ Don't enter alphabets or strings where numbers are required!")
+    print("Don't enter alphabets or strings where numbers are required!")
